@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #212121;
+}
+body * {
+  font-family: "Sen", sans-serif;
+}
+.flex-squares {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+  }
+.square{
+  display: flex;
+width: 416px;
+height: 138px;
+border-radius: 4px;
+border: 1px solid #373737;
+}
+.text{
+display: flex;
+padding: 39px 29px 39px 30px;
+justify-content: center;
+align-items: center;
+}
+h2{
+color: #FFF;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: -0.45px;
+}
+p{
+color: var(--light-grey, #B4BCD0);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.rectangle{
+  width: 1px;
+height: 60px;
+background: #00A7E6;
+margin: 33px;
+}
