@@ -42,6 +42,14 @@ line-height: 26px;
 .rectangle{
   width: 1px;
 height: 60px;
-background: #00A7E6;
 margin: 33px;
+}
+.fst {
+  background: #00A7E6;
+}
+.snd {
+  background: #0076F4;
+}
+.thrd {
+  background: #B40FE7;
 }
