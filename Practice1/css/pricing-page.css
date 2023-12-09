@@ -1,0 +1,102 @@
+.title-section {
+  width: 100%;
+}
+.title-section h1 {
+  margin-bottom: 16px;
+}
+.title-section .plan-selector {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.title-section .plan-selector button {
+  background: transparent;
+  border: none;
+  text-transform: none;
+  padding: 10px 35px;
+}
+.title-section .plan-selector button.active {
+    border-radius: 100px;
+    border: 1px solid rgba(248, 250, 251, 0.10);
+    background: rgba(248, 250, 251, 0.10);
+}
+.cards-section {
+    width: 100%;
+    gap: 30px;
+    margin-top: 40px;
+}
+.cards-section .card {
+    width: 330px;
+    height: 820px;
+padding: 30px;
+border-radius: 3px;
+border: 1px solid #3D3E3F;
+background: #2B2B2C;
+}
+.cards-section .card .card-title {
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 34px;
+}
+.cards-section .card .card-price {
+    color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 74px;
+margin-top: 16px;
+}
+.cards-section .card .card-price::before{
+    content: "$";
+    font-size: calc(64px / 2);
+    transform: translateY(-10px);
+}
+.cards-section .card .card-price-subtitle {
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 350;
+line-height: 22px;
+margin: 16px;
+}
+.cards-section .card button {
+  display: flex;
+width: 320px;
+height: 56px;
+padding: 18px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.cards-section .card .price_sub::after{
+  content: "starts at";
+  color: var(--light-grey, #B4BCD0);
+  display: flex;
+  margin-bottom: -14px;
+font-size: 14px;
+font-style: normal;
+font-weight: 350;
+line-height: 14px;
+}
+.cards-section .long_part{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: var(--light-grey, #B4BCD0);;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.cards-section li::before{
+  content:url('/Practice1/assets/list_frame.svg');
+    padding-right: 13px;
+}
