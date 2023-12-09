@@ -97,6 +97,12 @@ font-weight: 400;
 line-height: 24px;
 }
 .cards-section li::before{
-  content:url('/Practice1/assets/list_frame.svg');
+  content:url('/git-homework/Practice1/assets/list_frame.svg');
     padding-right: 13px;
+}
+
+@media (max-width: 750px) {
+  .cards-section {
+  display: grid;
+  }
 }

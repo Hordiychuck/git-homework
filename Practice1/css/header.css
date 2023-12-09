@@ -1,24 +1,50 @@
 header {
-    width: 100%;
+  width: 100%;
+  height: 110px;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.side_panel{
+  position: fixed;
+  background: url(/git-homework/Practice1/assets/Group\ 89.svg)no-repeat, center;
+}
+header img {
+  margin-right: 250px;
+}
+
+header nav {
+  display: flex;
+  gap: 60px;
+  margin-right: 60px;
+}
+
+header .buttons-wrapper {
+  display: flex;
+  gap: 16px;
+}
+@media (max-width: 2000px) {
+.side_panel{
+  visibility: hidden;
+}
+}
+@media (max-width: 750px) {
+  .side_panel {
+    visibility: visible;
+  }
+  header {
+    width: auto;
     height: 110px;
-    padding: 24px 0;
-    display: flex;
+    display: grid;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  
-  header img {
-    margin-right: 250px;
-  }
-  
-  header nav {
-    display: flex;
-    gap: 60px;
-    margin-right: 60px;
-  }
-  
-  header .buttons-wrapper {
-    display: flex;
-    gap: 16px;
-  }
+header img {
+  width: 138px;
+  height: 36px;
+}
+
+}
