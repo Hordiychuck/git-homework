@@ -1,0 +1,13 @@
+body{
+    background: var(--bs-gray-900) !important;
+}
+section{
+    background: var(--bs-gray-800) !important;
+    margin-top: 50px;
+}
+.icon-square {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    
+}
