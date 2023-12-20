@@ -1,0 +1,19 @@
+.forms-wrapper {
+    width: 40%;
+    padding: 5rem;
+}
+.test2{
+    display:flex;
+    justify-content: center;
+}
+section{
+    width: 30%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    
+    margin: 35px;
+    width: 50%;
+}
